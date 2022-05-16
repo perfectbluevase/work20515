@@ -23,9 +23,8 @@
 
 <% end %>
 
-<p>
+
 <%= link_to 'Show', book_path(@book.id) %>
-<a>|</a>
-<%= link_to 'Back', '/books' %>
-</p>
+<%= "|" %>
+<%= link_to 'Back', books_path %>
 
